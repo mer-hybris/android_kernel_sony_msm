@@ -832,3 +832,6 @@ CONFIG_BT_BNEP_PROTO_FILTER=y
 
 # network debugging
 CONFIG_NET_DROP_MONITOR=y
+
+# breaks systemd-resolved
+CONFIG_ANDROID_PARANOID_NETWORK=n
